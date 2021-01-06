@@ -15,8 +15,8 @@ const ad = new ActiveDirectory(config);
 app.get( '/',(req, res) => {
 
     console.log('teste')
-    const username = '94360065272'
-    const password = 'Alfa*3264'
+    const username = ''
+    const password = ''
     
     ad.authenticate(username, password, function(err, auth) {
         if (err) {
